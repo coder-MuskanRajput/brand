@@ -6,11 +6,15 @@ import Offer from './OfferComponent';
 
 const App = () => {
   return (
+
+    <>
+    <Brand/>
     <Routes>
       <Route path="/" element={<Brand />} />
       <Route path="/image-detail" element={<ImageDetail />} />
       <Route path='/offer' element={<Offer/>}/>
     </Routes>
+    </>
   );
 };
 
